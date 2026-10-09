@@ -54,6 +54,11 @@ vim.api.nvim_set_hl(0, "TelescopeMatching", {
 })
 
 -- Hightlight colors
+vim.api.nvim_set_hl(0, "Visual", {
+    bg = "#25382b",
+})
+
+-- Linenumbers
 vim.api.nvim_set_hl(0, "LineNr", {
     fg = "#4b504e",
 })
